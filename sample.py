@@ -2,7 +2,6 @@
 # $ wget http://public.shiroyagi.s3.amazonaws.com/latest-ja-word2vec-gensim-model.zip
 # $ unzip latest-ja-word2vec-gensim-model.zip
 
-# from collections import defaultdict
 from gensim.models.word2vec import Word2Vec
 
 model = Word2Vec.load('word2vec.gensim.model')
